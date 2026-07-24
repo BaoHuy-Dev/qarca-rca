@@ -1,0 +1,30 @@
+[project]
+name = "trail-rca"
+version = "0.1.0"
+description = "Reproducible evaluation of telemetry-loss-robust microservice root-cause localization"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fse-baro==0.2.2",
+  "matplotlib==3.11.1",
+  "numpy==2.5.1",
+  "pandas==3.0.3",
+  "pyyaml==6.0.3",
+  "scikit-learn==1.9.0",
+  "scipy==1.18.0",
+  "seaborn==0.13.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

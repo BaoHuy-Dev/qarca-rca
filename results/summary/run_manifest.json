@@ -1,0 +1,247 @@
+{
+  "data_archives": [
+    {
+      "bytes": 30966778,
+      "md5": "47cce26ed24140e8974e68f9db2a5e9c",
+      "path": "data/downloads/RE1-OB.zip",
+      "sha256": "4a709297e0a829f0f2ee8a7792a6d74da32d663c600565b7fffc860963b840c4"
+    },
+    {
+      "bytes": 79089075,
+      "md5": "d2b15cbd3bb3cf6ec5f3cc65f7fac225",
+      "path": "data/downloads/RE1-SS.zip",
+      "sha256": "b4424b0b3863b7397712caa0f305ef59964b03784dfcb23e23e0a95a2e746f99"
+    },
+    {
+      "bytes": 279663965,
+      "md5": "48a26925ce47fd4bcfbedbae4f31475b",
+      "path": "data/downloads/RE1-TT.zip",
+      "sha256": "2b33b7ab07198e0d69f229e697bfcef794a656e8db73a1d732142effde17c595"
+    }
+  ],
+  "generated_utc": "2026-07-23T22:55:06.236503+00:00",
+  "hardware": {
+    "logical_cpu_count": 20,
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel"
+  },
+  "notes": [
+    "Raw extracted telemetry is not redistributed.",
+    "Git was unavailable in the execution environment; source SHA-256 records replace a commit identifier for this run."
+  ],
+  "operating_system": {
+    "release": "11",
+    "system": "Windows",
+    "version": "10.0.26200"
+  },
+  "packages": {
+    "fse-baro": "0.2.2",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "pyyaml": "6.0.3",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0",
+    "seaborn": "0.13.2"
+  },
+  "python": {
+    "executable_relative": ".venv/Scripts/python.exe",
+    "implementation": "CPython",
+    "version": "3.12.13"
+  },
+  "result_files": [
+    {
+      "bytes": 77363338,
+      "path": "results/raw/baselines-v2.csv",
+      "sha256": "75ca0b36cf56df86ea0223db7b9e33fd9579cccc7ac4fa0b0377a40da370b031"
+    },
+    {
+      "bytes": 197940039,
+      "path": "results/raw/qarca-v2.csv",
+      "sha256": "24e531957e93e4723e8b96b7832a07b7435c43aa89c2ed24f73c7fc4bfdf05c3"
+    },
+    {
+      "bytes": 277843143,
+      "path": "results/raw/confirmatory.csv",
+      "sha256": "779dccb153c143eb5cff4d859a68bfe7ba250438c0bea9e0803ece4ab1793251"
+    }
+  ],
+  "schema_version": 1,
+  "source_files": [
+    {
+      "bytes": 5779,
+      "path": "PROTOCOL.md",
+      "sha256": "8fdf94544fb49f19df23fc7cb2bcd958465d89b396838ece0fdd9e47275273f5"
+    },
+    {
+      "bytes": 2337,
+      "path": "PROTOCOL_CHANGELOG.md",
+      "sha256": "739e684165a50117992924c54c56837225a4e55560bb65470d1f3ca31f163c2e"
+    },
+    {
+      "bytes": 3608,
+      "path": "README.md",
+      "sha256": "35a8a858a156446e5f8fc2dbd0b3ef254163bfe230afc00376b7dbd62058c4e4"
+    },
+    {
+      "bytes": 1275,
+      "path": "data/README.md",
+      "sha256": "03976f8d15db398ff3b0242a42aa862e3fe2563be435a0a0463e3bb8e42d857d"
+    },
+    {
+      "bytes": 833,
+      "path": "figures/alt-text.txt",
+      "sha256": "7c4e2cab6e30d4db7820d43821217c684c2422af1923d6e390e75a4e711efe73"
+    },
+    {
+      "bytes": 833,
+      "path": "figures/robustness-alt.txt",
+      "sha256": "7c4e2cab6e30d4db7820d43821217c684c2422af1923d6e390e75a4e711efe73"
+    },
+    {
+      "bytes": 22378,
+      "path": "figures/robustness.pdf",
+      "sha256": "a6ddfa4b7ce7dd4e83cbbd40f30367db23a5e263a1ed233a07079f5a89bb0826"
+    },
+    {
+      "bytes": 165657,
+      "path": "figures/robustness.png",
+      "sha256": "9da8b89ac96f1a805d3f823dcd3773ec5bff17619cbec0d6ebcdff8b297375b4"
+    },
+    {
+      "bytes": 1561,
+      "path": "generated/ablation_summary.tex",
+      "sha256": "426fae8ba327535d6bb69a02a23497b71f4fb8662fe4e63f3cb423d7905f6eda"
+    },
+    {
+      "bytes": 217,
+      "path": "generated/abstract_result.tex",
+      "sha256": "0b1c6b1725ec88c16a81f7afe823c99a0a6f705ceb2e889563ca15e70a06e044"
+    },
+    {
+      "bytes": 344,
+      "path": "generated/conclusion_result.tex",
+      "sha256": "7e887906754d374f1d51c4d557ad8d2aa909ba997ff1377db8a4d16d3410ae20"
+    },
+    {
+      "bytes": 648,
+      "path": "generated/results.tex",
+      "sha256": "98ebbae60454b27cc47e33886fd9c87fdcfc13731dc91aaf17f62a533d6e8d05"
+    },
+    {
+      "bytes": 390,
+      "path": "generated/results_summary.tex",
+      "sha256": "01c19a1f9f9afddc251225bbd95a0524da3cbc84e0e7461e13cd60415c60b28e"
+    },
+    {
+      "bytes": 43467,
+      "path": "llncs.cls",
+      "sha256": "f1be281bc631f07c4405566d64b294ec8df018e75e6d6c6c643cbdd5806677a5"
+    },
+    {
+      "bytes": 34317,
+      "path": "main.tex",
+      "sha256": "2915704635160c0dbab5dd36b76add39050022df7a9ee811007c759d22ac2385"
+    },
+    {
+      "bytes": 661,
+      "path": "pyproject.toml",
+      "sha256": "e829e97a45a7d7fec982661dba2a74a590443ded6db624ad6bee2b68a4ee1ad0"
+    },
+    {
+      "bytes": 11327,
+      "path": "references.bib",
+      "sha256": "9d4af7c953955cc92a67e113ab0d4d32a56302f3b29ed7b250ec0515b02d31dc"
+    },
+    {
+      "bytes": 53705,
+      "path": "scripts/analyze_results.py",
+      "sha256": "2cdeb550bfc0c321e37e9e487e424514a205f8b1b59d030f74e96a1f7fec5843"
+    },
+    {
+      "bytes": 1507,
+      "path": "scripts/combine_predictions.py",
+      "sha256": "8d4b6ace79fe2dfbdc69702ff1641880d4642ef0b01e3e2daf924ff14d913d72"
+    },
+    {
+      "bytes": 10434,
+      "path": "scripts/run_experiments.py",
+      "sha256": "fd72b4c28ad06aa2d82cd70b44e880dbea35c23c7bf5d95eae2cf319f31cd716"
+    },
+    {
+      "bytes": 28141,
+      "path": "scripts/run_qarca_experiments.py",
+      "sha256": "8eae8e7c93ab11433f84ddab8c35c92ec4e9f5bae8196a7b95a32d8645212a4a"
+    },
+    {
+      "bytes": 3840,
+      "path": "scripts/write_run_manifest.py",
+      "sha256": "b12406a762edaee93c5719828006015c1117439b476479011d59aa8dc738fc92"
+    },
+    {
+      "bytes": 33694,
+      "path": "splncs04.bst",
+      "sha256": "a370ad563909f7264038e3388d59036306c3ecd53c6de26279ba921f3a9979df"
+    },
+    {
+      "bytes": 198,
+      "path": "src/trailrca/__init__.py",
+      "sha256": "ea9563a07848163cd01d75234b6f7e5ba62ccab9a2141d67c701da4eaaaacda8"
+    },
+    {
+      "bytes": 3324,
+      "path": "src/trailrca/candidates.py",
+      "sha256": "776183eab888510c8712d9ee0ee2f211f837ad362a42eaa3166cd17ca05dd976"
+    },
+    {
+      "bytes": 2770,
+      "path": "src/trailrca/data.py",
+      "sha256": "caf82fc7c6cbb44888f8656f539d9b17d43fbfca8bc2ad2ab4e272f5628b32f3"
+    },
+    {
+      "bytes": 6823,
+      "path": "src/trailrca/evaluation.py",
+      "sha256": "08d6e2e6747d0fcc5e5dba4ce4d2ac2dd14bf102470ee6e38df4b267a341bcf5"
+    },
+    {
+      "bytes": 8436,
+      "path": "src/trailrca/methods.py",
+      "sha256": "1219f39845a0075db264a86139197b990e92130869839004899e151bcddcb39d"
+    },
+    {
+      "bytes": 6407,
+      "path": "src/trailrca/missingness.py",
+      "sha256": "63e7763e85a0a4013f0c3e0810c3efe925464a31252d24d3d7ac2187b7a01d9f"
+    },
+    {
+      "bytes": 23830,
+      "path": "src/trailrca/quality_ranker.py",
+      "sha256": "66df62e3fd1dc7658bf469420affee6e9f6f95bd2f6d10c5b572f055f6220a35"
+    },
+    {
+      "bytes": 9329,
+      "path": "tests/test_analyze_results.py",
+      "sha256": "39132a3a5da3ce6ce9d3a894eb6699e8ef389f1a3f3dc25741fcdb85e3e8b672"
+    },
+    {
+      "bytes": 3065,
+      "path": "tests/test_artifact.py",
+      "sha256": "10abf6026c8c5650ca40530bc6d88a51ad706b2c148411c0571bed5fbdb3bee3"
+    },
+    {
+      "bytes": 6732,
+      "path": "tests/test_quality_ranker.py",
+      "sha256": "31d91c7ac800532afc728a25a9bef0a0997599c5688cf72a8f665e93115a6e4e"
+    },
+    {
+      "bytes": 3604,
+      "path": "tests/test_runner_integrity.py",
+      "sha256": "13869b3577c3a2089453416a9ee9c6712a08b8378956e19b339f59e218a95928"
+    },
+    {
+      "bytes": 58311,
+      "path": "uv.lock",
+      "sha256": "2e197175ebe7d82cf540b8019c5795147c3bd67e9726968cd44ea90fdf3a8e4e"
+    }
+  ]
+}
