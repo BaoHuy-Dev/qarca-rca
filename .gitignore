@@ -22,3 +22,10 @@ results/raw/*.csv
 *.vi.md
 
 PROTOCOL*.md
+
+FISAT_CHECKLIST.md
+ORGANIZER_QUESTIONS.txt
+history.txt
+samplepaper.tex
+.agents/
+.vscode/
