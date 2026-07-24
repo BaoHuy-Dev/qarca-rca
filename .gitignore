@@ -18,3 +18,7 @@ build/
 results/raw/*.csv
 
 results/raw/*.csv
+
+*.vi.md
+
+PROTOCOL*.md
